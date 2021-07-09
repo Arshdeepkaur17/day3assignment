@@ -1,0 +1,21 @@
+v3 = 0
+v5 = 0
+for (var i = 1; i <=100; i++) {
+  s = ""
+  v3++
+  v5++
+  if (v3==3) {
+    s = s+"Fizz"
+    v3 = 0
+  }
+  if(v5==5){
+    s = s+"Buzz"
+    v5 = 0
+  }
+  if(s ==""){
+    console.log(i)
+  }
+  else{
+    console.log(s)
+  }
+}

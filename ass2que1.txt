@@ -1,0 +1,22 @@
+a = "naman is talking to his mom and dad"
+a = a+" "
+word =""
+revword=""
+for(b of a){
+  if(b!=" "){
+    word=word+b
+    revword=b+revword
+  }
+  else{
+   // rev = word.split("").reverse().join("")
+    //if(rev==word){
+      //console.log(word)
+      
+      if(word==revword){
+        console.log(word)
+      }
+    
+    word= ""
+    revword = ""
+  }
+ }
